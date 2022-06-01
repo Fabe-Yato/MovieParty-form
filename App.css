@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;  
 }
+body{
+    font-family: 'Roboto';
+}
 .conteudo-principal{
     display: flex;
     flex-direction: row;
@@ -14,17 +17,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #022D31;
-    padding-top: 10%;
-    width: 115vh;
+    background-color: #3E969F;
+    padding-top: 4%;
+    width: 100%;
+    height: 661px;
 
+}
+.wave-above{
+    transform: rotate(180deg);
+    margin-top: -15%;
+}
+.wave-under{
+    margin-top: -1%;
 }
 .apresentacao p{
     padding-bottom: 10%;
 }
 .apresentacao h3{
-    padding-top: 20%;
-    padding-bottom: 7.5%;
+    padding-top: 11%;
 }
 .poster-filmes{
     display: flex;
@@ -39,24 +49,27 @@
     margin-top: -2%;
     
     border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
 }
 .poster-secundario{
     width: 30%;
     border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
 }
 .cadastro{  
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #034848;
-    width: 100vh;
+    background-color: #001515;
+    width: 100%;
+    
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: center;
 
-    background-color: #346464;
+    background-position-y: 250px;
 
     width: 100%;
     padding-top: 5%;
@@ -78,12 +91,65 @@ header{
     background-color: #A9A8A8;
 }
 .logo p{
-    padding-left: 10%;
-    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-bottom: 15%;
 }
 .formulario-cadastrar{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.formulario-cadastrar input{
+    background-color: #001515;
+    border: 2px solid #3E969F;
+    border-radius: 10px;
+
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+
+    color: #B4ADAD;
+    font-size: 1.2rem;
+    
+    outline: none;
+} 
+.inputs{
+    padding-top: 5%;
+}
+.formulario-cadastrar input[type=button]{
+    width: 250px;
+    background-color: #3E969F;
+    color: #fff;
+
+    cursor: pointer;
+}
+.formulario-cadastrar input[type=button]:hover{
+    background-color: #1a5d64;
+}
+.cadastrar{
+    margin-top: 2%;
+
+}
+.cadastrar input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+    padding-top: 5%;
+}
+.formulario-cadastrar a{
+    color: #3E969F;
+    text-decoration: none;
+    margin-top: 5%;
+}
+.formulario-cadastrar a:hover{
+    color: #20565c;
+}
 

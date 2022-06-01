@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Apresentacao from './components/Apresentacao';
 import Cadastro from './components/Cadastro';
+
 import './App.css'
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
 
   return (
     <main className="conteudo-principal">
-        <Apresentacao/>
-        <Cadastro/>
+      <Apresentacao/>
+      <Cadastro/>
     </main>
   )
 }
